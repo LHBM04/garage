@@ -1,0 +1,46 @@
+﻿{
+  "name": "garage",
+  "description": "garage - the portable game framework for windows",
+  "dependencies": [
+    "directx-headers",
+    {
+      "name": "directxmath",
+      "features": [
+        "dx12"
+      ]
+    },
+    {
+      "name": "directxmesh",
+      "features": [
+        "dx12"
+      ]
+    },
+    {
+      "name": "directxtex",
+      "features": [
+        "dx12"
+      ]
+    },
+    {
+      "name": "directxtk12",
+      "features": [
+        "gameinput",
+        "xaudio2-9"
+      ]
+    },
+    {
+      "name": "imgui",
+      "features": [
+        "docking-experimental",
+        "dx12-binding",
+        "win32-binding"
+      ]
+    },
+    "imguizmo",
+    "implot",
+    "spdlog",
+    "stb",
+    "assimp",
+    "fmt"
+  ]
+}
